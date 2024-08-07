@@ -4,5 +4,5 @@ using namespace std; // Permite usar el espacio de nombres estandar sin necesida
 
 // Primero que se ejecuta del programa (punto de entrada)
 int main() {
-    cout << "Hola mundo. :p"// Arroja una cadena de texto al terminal
+    cout << "Hola mundo. :p"; // Arroja una cadena de texto al terminal
 }
