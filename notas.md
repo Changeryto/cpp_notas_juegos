@@ -43,6 +43,19 @@ Asignacion     | = += -= *= /= -- ++
 Logicos        | && ||
 Otros          | sizeof << >>
 
-## 
+## Biblioteca estandar de C++
+
+En C++ no hay tipo string, si no esta en la biblioteca estandar que debe ser importada.
+
+Nombre      | Uso
+------------|---------------------------
+iostream    | Entrada y salida de datos
+string      | Manejo de cadenas de texto
+cmath       | Funciones matematicas comunes
+exception   | Utilidad para el manejo de excepciones
+array       | Manejo de arreglos de datos
+vector      | Manejo de vectores de datos
+
+
 
 

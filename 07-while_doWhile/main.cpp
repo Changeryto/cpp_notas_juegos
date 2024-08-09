@@ -12,4 +12,12 @@ int main() {
             break;
         }
     }
+
+    int iter = 0;
+    int fin = 4;
+
+    do {
+        cout << "Ayy lmao again" << iter << endl;
+        ++iter;
+    } while (iter < fin);
 }
