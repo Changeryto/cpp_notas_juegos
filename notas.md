@@ -106,3 +106,29 @@ El & indica que se pretende obtener la dirección de memoria de la variable letr
 En el ejemplo, tomamos la variable puntero (reservando un espacio de memoria) y le estamos asignando la dirección de memoria de una variable llamada letra.
 Si el valor cambia, por medio del puntero tambien se puede obtener el valor, sin necesidad de leer directamente el valor.
 
+## POO
+
+Paradigma agregado al compilador.
+La capacidad es diversa y soportado en diferentes lugares.
+
+Cada clase (objeto) tiene un nombre (identidad) y una serie de propiedades (lo que lo define) y métodos (lo que puede hacer).
+
+Se piensa en entidades, y cómo estas funcionan y se colaboran para tener acción.
+
+En C++ tienen las siguientes características:
+
+- Abstracción: Capacidad de realizar programas a partir de definiciones abstractas, por medio de sólo mostrar la información esencial y ocultar los detalles de implementación.
+- Encapsulación: Capacidad de ocultar sus características para hacerlos inaccesibles a los demás (útil sólo para el funcionamiento interno).
+
+## Ciclo de vida de un objeto
+
+En distintas etapas de un proceso puede estar en distintos estados.
+
+1. Se reserva el espacio en memoria.
+2. Se invoca el constructor.
+3. Periodo de actividad.
+4. Se invoca el destructor.
+5. Se libera el espacio en memoria.
+
+El compilador tiene un destructor vacío, que hace la función básica de liberar la memoria.
+Si tenemos una creación de memoria dinámica, es buena práctica eliminar la memoria manualmente, así evitando la saturación de memoria.
